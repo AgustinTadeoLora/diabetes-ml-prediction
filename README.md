@@ -76,3 +76,35 @@ El modelo fue guardado utilizando `joblib`:
 ```python
 joblib.dump(rf, "../../src/modelo_random_forest.pkl")
 joblib.dump(gradient_b, "../../src/modelo_gradient_boosting.pkl")
+
+## 📁 Estructura del Proyecto
+
+├── DATA/
+│ └── notebook/
+│ └── diabetes_modeling.ipynb
+├── src/
+│ └── modelo_random_forest.pkl
+│ └── modelo_gradient_boosting.pkl
+├── diabetes_dataset.csv
+├── diabetes_modificado.csv
+└── README.md
+
+## 🛠️ Tecnologías Utilizadas
+
+- Python 3.10+
+- Pandas
+- NumPy
+- Scikit-learn
+- Joblib
+- Seaborn / Matplotlib
+- Jupyter Notebook
+- Statsmodels
+
+📌 Conclusiones
+
+El modelo demuestra alta capacidad predictiva y estabilidad entre dos algoritmos avanzados de clasificación. Los resultados son consistentes y clínicamente interpretables, logrando identificar pacientes con elevado riesgo de diabetes con gran efectividad.
+
+👤 Autor
+
+Agustín Lora
+Data Analyst & Machine Learning Enthusiast
