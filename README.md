@@ -73,9 +73,10 @@ El modelo predijo correctamente los niveles de riesgo esperado en cada escenario
 
 El modelo fue guardado utilizando `joblib`:
 
-```python
+python
 joblib.dump(rf, "../../src/modelo_random_forest.pkl")
 joblib.dump(gradient_b, "../../src/modelo_gradient_boosting.pkl")
+
 
 ## 📁 Estructura del Proyecto
 
