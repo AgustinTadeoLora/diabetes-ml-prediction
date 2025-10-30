@@ -71,24 +71,24 @@ El modelo predijo correctamente los niveles de riesgo esperado en cada escenario
 
 ## 💾 Exportación del Modelo
 
-El modelo fue guardado utilizando `joblib`:
+El modelo fue guardado utilizando `joblib`:<br>
 
-python
-joblib.dump(rf, "../../src/modelo_random_forest.pkl")
-joblib.dump(gradient_b, "../../src/modelo_gradient_boosting.pkl")
+python<br>
+joblib.dump(rf, "../../src/modelo_random_forest.pkl")<br>
+joblib.dump(gradient_b, "../../src/modelo_gradient_boosting.pkl")<br>
 
 
 ## 📁 Estructura del Proyecto
 
-├── DATA/
-│ └── notebook/
-│ └── diabetes_modeling.ipynb
-├── src/
-│ └── modelo_random_forest.pkl
-│ └── modelo_gradient_boosting.pkl
-├── diabetes_dataset.csv
-├── diabetes_modificado.csv
-└── README.md
+├── DATA/<br>
+│ └── notebook/<br>
+│ └── diabetes_modeling.ipynb<br>
+├── src/<br>
+│ └── modelo_random_forest.pkl<br>
+│ └── modelo_gradient_boosting.pkl<br>
+├── diabetes_dataset.csv<br>
+├── diabetes_modificado.csv<br>
+└── README.md<br>
 
 ## 🛠️ Tecnologías Utilizadas
 
